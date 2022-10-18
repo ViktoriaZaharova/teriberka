@@ -1,0 +1,339 @@
+/*==========  Desktop First  ==========*/
+@media only screen and (max-width: 1550px) {
+  .home:before {
+    width: 524px;
+    height: 755px;
+    top: 700px; }
+  .about {
+    margin: -50px 0 0; }
+  .about .box-text img {
+    margin: 0 auto; }
+  .plane-box:nth-child(5) .plane-box__img, .plane-box:nth-child(3) .plane-box__img {
+    top: -100px; }
+  .social {
+    margin: 0 0 694px; }
+  .callback {
+    margin: 140px 0 148px; } }
+
+@media only screen and (max-width: 1350px) {
+  h1 {
+    font-size: 160px; }
+  .slogan {
+    font-size: 42.5px; }
+    .slogan .author {
+      margin: 25px auto 0; } }
+
+@media only screen and (max-width: 1200px) {
+  .home:after {
+    height: 2600px; }
+  .about .box-text {
+    max-width: 670px; } }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  header {
+    padding: 40px 0; }
+    header a {
+      font-size: 20px; }
+  .logo {
+    max-width: 354px; }
+  h1 {
+    font-size: 113px;
+    margin: 20px auto 79px;
+    letter-spacing: -2.83px; }
+  .subtitle {
+    font-size: 40.5px;
+    letter-spacing: -1.01px; }
+  .date {
+    font-size: 60px;
+    margin: 0 auto 68px;
+    letter-spacing: -1.5px; }
+  .slogan {
+    letter-spacing: -1.06px; }
+    .slogan .author {
+      max-width: 510px;
+      letter-spacing: -1.8px; }
+  .home {
+    padding: 234px 0 460px; }
+    .home:after {
+      height: 2670px; }
+    .home .btn {
+      margin: 123px auto 0; }
+  .about {
+    margin: 0; }
+    .about h2 {
+      font-size: 42px; }
+      .about h2 span {
+        font-size: 70px; }
+    .about:before {
+      top: 340px;
+      background: url("../img/bg2-mobile.png") no-repeat center top;
+        background-size: cover;
+      height: 1943px; }
+    .about .box-text img {
+      margin: -20px auto; }
+  .program {
+    padding: 364px 0 624px; }
+    .program:before {
+      top: 127px;
+      height: 6866px; }
+  .plane h2 {
+    margin: 0 auto 70px; }
+  .plane-box {
+    margin: 0; }
+    .plane-box__text {
+      max-width: none;
+      text-align: center; }
+      .plane-box__text br {
+        display: none; }
+    .plane-box h3 {
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+    .plane-box:nth-child(odd) h3 {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+    .plane-box__img {
+      position: relative;
+      top: 0;
+      left: 0;
+      right: 0; }
+    .plane-box:nth-child(3), .plane-box:nth-child(4), .plane-box:nth-child(5) {
+      margin: 0; }
+      .plane-box:nth-child(3) .plane-box__img, .plane-box:nth-child(4) .plane-box__img, .plane-box:nth-child(5) .plane-box__img {
+        top: 0; }
+      .plane-box:nth-child(3) .plane-box__text, .plane-box:nth-child(4) .plane-box__text, .plane-box:nth-child(5) .plane-box__text {
+        max-width: none; }
+  .prices {
+    margin: 139px 0 0; }
+  .price {
+    letter-spacing: -2.5px; } }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  header a {
+    display: none; }
+  header .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .home:before {
+    top: 902px;
+    width: 346px;
+    height: 456px; }
+  .home:after {
+    height: 2201px; }
+  .about:before {
+    top: 400px; }
+  .about .box-text br {
+    display: none; }
+  .about .box-text img {
+    margin: -30px auto;
+    max-width: 200px; }
+  .about h2 {
+    mix-blend-mode: normal; }
+    .about h2 span {
+      line-height: 1.1;
+      display: block;
+      max-width: 400px;
+      margin: 30px auto 0; }
+      .about h2 span:last-child {
+        margin: 0 auto; }
+    .about h2 .tag {
+      margin: 0 auto; }
+  .program:before {
+    top: -323px;
+    background: url("../img/bg3-mobile.png") no-repeat center top;
+      background-size: 100%;
+    height: 6866px; }
+  .program-box {
+    margin: 0 auto 100px; }
+    .program-box__text {
+      max-width: 648px; }
+    .program-box:nth-child(2) .program-box__text {
+      max-width: 629px; }
+    .program-box:last-child .program-box__text {
+      max-width: 665px; }
+  blockquote:before {
+    width: 120px;
+    height: 93px;
+    top: -150px;
+    left: 100px; }
+  .plane h2 {
+    font-size: 46px; }
+  .plane-box {
+    margin: 0 0 110px; }
+    .plane-box h3:before {
+      margin: 0 -50px 0 0; }
+    .plane-box__img {
+      display: none; }
+      .plane-box__img.img-mobile {
+        display: block; }
+    .plane-box:last-child {
+      margin: 0; }
+  .price {
+    font-size: 80px; }
+  .prices .box-text {
+    margin: 97px auto 122px; }
+  .prices h2 {
+    margin: 0 auto 20px; }
+  .prices-image {
+    margin: 53px 0 201px -150px; }
+  .prices-compound {
+    margin: 0 0 69px; }
+    .prices-compound .box-text {
+      margin: 30px auto 0; }
+  .description-price {
+    margin: 0 auto;
+    max-width: 550px;
+    letter-spacing: -0.83px; } }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 720px) {
+  h1 {
+    font-size: 80px; }
+  .date {
+    font-size: 50px; }
+  .program-box {
+    font-size: 24px; }
+    .program-box h3 {
+      font-size: 40px; }
+  .program:before {
+    top: -220px; } }
+
+@media only screen and (max-width: 650px) {
+  .program h2 {
+    margin: 0 auto 60px; }
+  h2 {
+    font-size: 50px; }
+  .program-box {
+    font-size: 20px; }
+    .program-box h3 {
+      font-size: 30px;
+      margin: 0 auto 30px; } }
+
+@media only screen and (max-width: 576px) {
+  h1 {
+    font-size: 60px; }
+  .subtitle {
+    font-size: 30px; }
+  .date {
+    font-size: 30px;
+    margin: 0 auto 30px; }
+  .slogan {
+    font-size: 32px; }
+    .slogan .author {
+      font-size: 50px; }
+  .home:before {
+    width: 246px;
+    height: 356px;
+    top: 930px; }
+  .about .box-text {
+    font-size: 24px; }
+  .about h2 {
+    font-size: 40px; }
+    .about h2 span {
+      font-size: 60px; }
+  .program:before {
+    top: 60px; }
+  .program-box {
+    margin: 0 0 60px; }
+    .program-box__icon {
+      margin: 0 auto 40px; }
+  .plane-box {
+    font-size: 24px; }
+    .plane-box h3 {
+      margin: 0 auto 30px;
+      font-size: 36px; }
+  .price {
+    font-size: 60px; }
+  .prices h2 {
+    font-size: 44px; }
+  .prices .box-text {
+    font-size: 24px;
+    margin: 50px auto 80px; }
+  .prices-compound .box-text {
+    margin: 30px auto 0; } }
+
+@media only screen and (max-width: 480px) {
+  .program-box {
+    font-size: 18px; }
+    .program-box h3 {
+      font-size: 24px; }
+    .program-box__icon {
+      margin: 0 auto 30px;
+      max-width: 200px; }
+  .program:before {
+    top: 180px; }
+  .social h2 {
+    margin: 0 auto 30px;
+    font-size: 40px; }
+  .list-social li {
+    margin: 0 20px 0 0; }
+    .list-social li a {
+      padding: 15px;
+      width: 60px;
+      height: 60px; }
+  .price {
+    font-size: 50px; }
+  .description-price {
+    font-size: 26px; }
+  body:before {
+    height: 2700px; } }
+
+@media only screen and (max-width: 420px) {
+  .logo {
+    max-width: 300px; }
+  h1 {
+    font-size: 50px; }
+  .slogan .author {
+    font-size: 40px; }
+  .home:after {
+    height: 2061px; }
+  .about h2 {
+    font-size: 30px; }
+    .about h2 span {
+      font-size: 50px; }
+  .about .box-text {
+    font-size: 22px; }
+  h2 {
+    font-size: 40px; }
+  .program:before {
+    top: 400px; }
+  .program h2 {
+    margin: 0 auto 30px; }
+  .program-box {
+    font-size: 16px; }
+    .program-box h3 {
+      font-size: 24px; }
+    .program-box__icon {
+      max-width: 150px; }
+  .prices-compound h3 {
+    font-size: 30px; }
+  .price {
+    font-size: 40px; }
+  .prices h2 {
+    font-size: 36px; }
+  .prices .box-text {
+    font-size: 20px; }
+  .btn {
+    height: 70px;
+    font-size: 20px; }
+    .btn span {
+      padding: 0 40px; } }
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 360px) {
+  .program:before {
+    top: 450px; }
+  .list-social li a {
+    width: 50px;
+    height: 50px;
+    padding: 12px; }
+  .social h2 {
+    font-size: 36px; } }
