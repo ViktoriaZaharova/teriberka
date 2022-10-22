@@ -258,7 +258,16 @@
     font-size: 24px;
     margin: 50px auto 80px; }
   .prices-compound .box-text {
-    margin: 30px auto 0; } }
+    margin: 30px auto 0; }
+  blockquote {
+    font-size: 24px; }
+    blockquote:before {
+      left: 0;
+      width: 90px;
+      height: 70px;
+      top: -90px; }
+  .plane h2 {
+    font-size: 36px; } }
 
 @media only screen and (max-width: 480px) {
   .program-box {
@@ -325,15 +334,21 @@
     height: 70px;
     font-size: 20px; }
     .btn span {
-      padding: 0 40px; } }
+      padding: 0 40px; }
+  .plane h2 {
+    font-size: 30px; } }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 360px) {
-  .program:before {
-    top: 450px; }
+  .program {
+    padding: 364px 0 424px; }
+    .program:before {
+      top: 450px; }
   .list-social li a {
     width: 50px;
     height: 50px;
     padding: 12px; }
   .social h2 {
-    font-size: 36px; } }
+    font-size: 36px; }
+  .plane h2 {
+    font-size: 26px; } }
