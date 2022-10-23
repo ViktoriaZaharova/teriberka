@@ -312,10 +312,12 @@
     font-size: 22px; }
   h2 {
     font-size: 40px; }
-  .program:before {
-    top: 400px; }
-  .program h2 {
-    margin: 0 auto 30px; }
+  .program {
+    padding: 364px 0 724px; }
+    .program:before {
+      top: 400px; }
+    .program h2 {
+      margin: 0 auto 30px; }
   .program-box {
     font-size: 16px; }
     .program-box h3 {
@@ -335,13 +337,15 @@
     font-size: 20px; }
     .btn span {
       padding: 0 40px; }
-  .plane h2 {
-    font-size: 30px; } }
+  .plane {
+    margin: -20px auto 0; }
+    .plane h2 {
+      font-size: 30px; } }
 
 /* Custom, iPhone Retina */
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 375px) {
   .program {
-    padding: 364px 0 424px; }
+    padding: 364px 0 584px; }
     .program:before {
       top: 450px; }
   .list-social li a {
@@ -350,5 +354,11 @@
     padding: 12px; }
   .social h2 {
     font-size: 36px; }
-  .plane h2 {
-    font-size: 26px; } }
+  .plane {
+    margin: -110px auto 0; }
+    .plane h2 {
+      font-size: 26px; } }
+
+@media only screen and (max-width: 340px) {
+  .program {
+    padding: 364px 0 400px; } }
